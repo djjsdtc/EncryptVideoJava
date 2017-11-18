@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="encryptvideo">
+    <output-path>$PROJECT_DIR$/out/artifacts/encryptvideo</output-path>
+    <root id="archive" name="encryptvideo.jar">
+      <element id="module-output" name="EncryptVideoJava" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-5.1.39-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/ffmpeg_enc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-cli-1.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
